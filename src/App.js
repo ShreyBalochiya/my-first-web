@@ -33,15 +33,13 @@ function App() {
 
         <div className="container my-3">
           <Routes>
-          <Route path="/" element={<TextFrom mode={mode}/>}> 
-          </Route>
- 
+            <Route path="/" element={<TextFrom mode={mode} />}></Route>
+
             <Route>
-              <Route path="/about" element={<About mode={mode}/>} />
+              <Route path="/about" element={<About mode={mode} />} />
             </Route>
-            
           </Routes>
-        </div> 
+        </div>
       </BrowserRouter>
     </>
   );
